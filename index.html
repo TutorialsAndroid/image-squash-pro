@@ -188,6 +188,30 @@
         align-items: center;
       }
 
+      /* ── Slogan Bar (NEW) ───────────── */
+      .slogan-bar {
+        background: linear-gradient(
+          105deg,
+          var(--primary) 0%,
+          var(--primary-hover) 100%
+        );
+        color: #fff;
+        text-align: center;
+        padding: 10px 24px;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: -0.1px;
+        box-shadow: 0 2px 8px rgba(79, 70, 229, 0.25);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+      .slogan-bar .shield {
+        font-size: 16px;
+      }
+
       /* ── Main Layout ────────────────── */
       .app-container {
         max-width: 1300px;
@@ -862,6 +886,14 @@
         >
       </div>
     </header>
+
+    <!-- ═══════════ SLOGAN BAR (NEW) ═══════════ -->
+    <div class="slogan-bar">
+      <span class="shield">🔒</span>
+      Professional‑grade bulk image compressor that runs entirely in your
+      browser. No image uploading to the server – process images on your own
+      machine. 100% private & safe.
+    </div>
 
     <!-- ═══════════════ MAIN CONTAINER ═══════════════ -->
     <div class="app-container">
