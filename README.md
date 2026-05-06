@@ -85,7 +85,7 @@ These values strike a balance between tiny file size and acceptable visual quali
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!  
-Feel free to check the [issues page](https://github.com/your-username/image-squash-pro/issues).
+Feel free to check the [issues page](https://github.com/TutorialsAndroid/image-squash-pro/issues).
 
 <br/>
 
