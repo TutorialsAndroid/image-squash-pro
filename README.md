@@ -6,7 +6,7 @@
 <p align="center"><strong>Professional‑grade bulk image compressor that runs entirely in your browser</strong></p>
 
 <p align="center">
-  <a href="https://your-username.github.io/image-squash-pro/"><strong>🚀 Live Demo</strong></a> ·
+  <a href="https://tutorialsandroid.github.io/image-squash-pro/"><strong>🚀 Live Demo</strong></a> ·
   <a href="#features">Features</a> ·
   <a href="#how-it-works">How It Works</a> ·
   <a href="#usage">Usage</a> ·
