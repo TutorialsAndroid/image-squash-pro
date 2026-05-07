@@ -1,6 +1,6 @@
-<!-- <p align="center">
-  <img src="https://raw.githubusercontent.com/your-username/image-squash-pro/main/og-image.png" alt="ImageSquash Pro Logo" width="120" />
-</p> -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TutorialsAndroid/image-squash-pro/refs/heads/main/assets/banner.png" alt="ImageSquash Pro Logo" width="420" />
+</p>
 
 <h1 align="center">ImageSquash Pro</h1>
 <p align="center"><strong>Professional‑grade bulk image compressor that runs entirely in your browser</strong></p>
