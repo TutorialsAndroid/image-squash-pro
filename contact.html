@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Primary Meta Tags -->
+    <title>Contact – ImageSquash Pro | Get in Touch</title>
+    <meta name="title" content="Contact – ImageSquash Pro | Get in Touch" />
+    <meta
+      name="description"
+      content="Reach the ImageSquash Pro team for feedback, feature requests, or support. We’re open source, private, and here to help."
+    />
+    <meta
+      name="keywords"
+      content="contact image squasher, image compressor contact, support image compression, privacy tool contact, open source help, feedback image tool, get in touch image compressor"
+    />
+    <meta name="author" content="ImageSquash Pro" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://tutorialsandroid.github.io/image-squash-pro/contact.html"
+    />
+    <meta
+      property="og:title"
+      content="Contact ImageSquash Pro – We’re Listening"
+    />
+    <meta
+      property="og:description"
+      content="Need help, have a suggestion, or want to contribute? Reach out to the team behind the private, browser‑based image compressor."
+    />
+    <meta
+      property="og:image"
+      content="https://tutorialsandroid.github.io/image-squash-pro/assets/banner.png"
+    />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:url"
+      content="https://tutorialsandroid.github.io/image-squash-pro/contact.html"
+    />
+    <meta name="twitter:title" content="Contact ImageSquash Pro" />
+    <meta
+      name="twitter:description"
+      content="Get in touch with the team behind the private, open‑source bulk image compressor."
+    />
+    <meta
+      name="twitter:image"
+      content="https://tutorialsandroid.github.io/image-squash-pro/assets/banner.png"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon/favicon.ico" />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div id="header"></div>
+
+    <main class="contact-wrapper">
+      <div class="contact-card">
+        <div class="contact-icon">💬</div>
+        <h1>We'd love to hear from you</h1>
+        <p>
+          Have a feature request, found a bug, or just want to say hi?<br />
+          Reach out via email or open an issue on GitHub.
+        </p>
+        <div class="contact-methods">
+          <a
+            href="mailto:akshaysunilmasram@yahoo.com?subject=Feedback%20for%20ImageSquash%20Pro"
+            class="contact-btn primary"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+              />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+            Email us
+          </a>
+          <a
+            href="https://github.com/TutorialsAndroid/image-squash-pro/issues"
+            target="_blank"
+            rel="noopener"
+            class="contact-btn"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2.02c-3.2.7-3.88-1.38-3.88-1.38-.53-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.97.1-.75.4-1.26.72-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.28 1.2-3.09-.12-.3-.52-1.5.11-3.13 0 0 .98-.31 3.2 1.18a11.1 11.1 0 0 1 5.82 0c2.22-1.5 3.2-1.18 3.2-1.18.63 1.63.23 2.83.11 3.13.75.81 1.2 1.83 1.2 3.09 0 4.43-2.7 5.4-5.27 5.69.41.35.78 1.04.78 2.1v3.11c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"
+              />
+            </svg>
+            GitHub Issues
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Same footer -->
+    <div id="footer"></div>
+
+    <!-- Load header component -->
+    <script>
+      fetch("components/header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header").innerHTML = data;
+
+          // Set active nav link based on current URL hash or path
+          const currentPage = window.location.pathname.split("/").pop(); // "index.html" or "about.html"
+          const links = document.querySelectorAll(".nav-link");
+          links.forEach((link) => {
+            const href = link.getAttribute("href").split("/").pop();
+            if (href === currentPage) {
+              link.classList.add("active");
+            } else {
+              link.classList.remove("active");
+            }
+          });
+        });
+    </script>
+
+    <!-- Load footer component -->
+    <script>
+      fetch("components/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+
+    <!-- Scripts -->
+    <script src="js/fab.js"></script>
+    <script src="js/analytics.js"></script>
+  </body>
+</html>

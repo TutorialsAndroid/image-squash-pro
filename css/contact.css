@@ -1,0 +1,63 @@
+.contact-wrapper {
+  flex: 1;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 48px 24px 64px;
+  width: 100%;
+}
+.contact-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: 40px 32px;
+  box-shadow: var(--shadow-lg);
+  text-align: center;
+}
+.contact-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+.contact-card h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+.contact-card p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+.contact-methods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 16px;
+}
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 24px;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--transition);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+.contact-btn:hover {
+  background: var(--primary-light);
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+.contact-btn.primary {
+  background: var(--primary);
+  color: #fff;
+  border-color: transparent;
+}
+.contact-btn.primary:hover {
+  background: var(--primary-hover);
+}
